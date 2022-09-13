@@ -1,0 +1,9 @@
+.imgx{
+    width: 9px;
+    position: relative;
+    bottom: 28px;
+    left: 80px;
+}
+.imgx:hover{
+  background-color: rgb(147, 85, 228);
+}

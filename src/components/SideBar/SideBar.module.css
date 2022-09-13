@@ -1,0 +1,63 @@
+.sideBar{
+    width: 189px;
+    height: 100vh;
+    background: #003367;
+    position: fixed;
+    margin-right: 0px;
+  transform: translateX(-130px);
+  transition: .5s ease all;
+  z-index: 1111;
+ 
+    
+   
+}
+.open{
+    width: 189px;
+    height: 100vh;
+    transform: translateX(0);
+    transition: .5s ease all;
+    background: #003367;
+  position: fixed;
+    z-index: 1111;
+}
+.sideBar>nav{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.but{
+    margin-left: 145px;
+    background-color: #003367;
+    border: none;
+}
+.but>i{
+  font-size: 20px;
+   color: white;
+   margin-top: 30px;
+}
+.but>i:hover{
+color: rgb(150, 104, 236);
+}
+.dashImg{
+    margin-top: 30px;
+    margin-left: 130px;
+   
+   
+}
+
+
+.dashImg>i{
+  width: 36px;
+  height: 36px;
+color: white;
+}
+
+.active1>svg{
+  color: #DADADA;
+}
+
+.active>svg{
+  color: white;
+ 
+}

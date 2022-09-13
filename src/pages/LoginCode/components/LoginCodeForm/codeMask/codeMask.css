@@ -1,0 +1,23 @@
+input::selection {
+    background-color: transparent;
+}
+
+.error_input {
+    border-bottom: 2px solid red;
+}
+
+.inputsWrapper input {
+    text-align: center;
+  }
+  
+  .inputsWrapper > input:focus {
+    outline: none;
+    border-bottom: 3px solid #003367;
+  }
+  
+  .inputsWrapper > input:hover {
+    border-bottom: 3px solid #003367;
+  }
+  .inputsWrapper > input::marker {
+    border-bottom: 3px solid #003367;
+  }

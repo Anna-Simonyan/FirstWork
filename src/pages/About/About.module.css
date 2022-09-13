@@ -1,0 +1,271 @@
+.about{
+margin: 0px;
+width: 100%;
+height: 100vh;
+position: absolute;
+
+}
+.about>h1{
+    width: 110px;
+height: 32px;
+margin-left: 117px;
+margin-top: 15px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #003367;
+}
+
+.profDiv{
+    width: 91%;
+    height: 285px;
+    box-sizing: border-box;
+
+    
+   margin-left: 7.25%;
+  
+
+    background: #FFFFFF;
+    border: 1px solid #EBEEEF;
+    border-radius: 4px;
+    border: 2px solid  white;
+}
+
+
+.prof{
+    display: flex;
+   
+}
+.h1{
+  
+    display: block;
+}
+.h{
+ display: block;
+
+
+   
+}
+.pikerDiv>div{
+    width: 100%;
+}
+.titleDiv{
+    margin-left: 62%;
+}
+.profDiv>div>div>h2{
+
+font-family: 'Roboto';
+
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+color: #003367;
+
+}
+
+.input{
+    border: none;
+   
+margin-top: 1%;
+background: #FFFFFF;
+
+border-radius: 4px;
+margin-left: 20px;
+}
+.input1{
+ 
+height: 20px;
+
+margin-top: 1%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.25px;
+color: rgba(0, 0, 0, 0.87);
+
+}
+
+.kiss{
+    width: 24px;
+    height: 24px;
+   
+   opacity: 0.7;
+}
+.divSlack{
+   
+    display: flex;
+    flex-direction: row;
+    opacity: 0.7;
+}
+.slack{
+    
+    opacity: 0.7;
+}
+.inputLine{
+    
+    display: flex;
+    
+}
+
+
+.containerInput{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.i{
+    display: flex;
+}
+.checkbox{
+    margin-top: 36px;
+    position: relative;
+    left: 16px;
+   
+}
+.myProfDiv{
+    width: 30%;
+    margin-left: 20px;
+  
+ 
+}
+.myProfDiv>input{
+    margin-top: 50px;
+}
+.slack{
+    display: flex;
+    
+
+}
+
+.slack>img{
+    width: 20px;
+ 
+}
+
+
+.divTime{
+    width: 91%;
+    
+    height: 285px;
+    box-sizing: border-box;
+padding: 10px;
+    
+   margin-left: 7.25%;
+  
+margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #EBEEEF;
+    border-radius: 4px;
+    
+}
+
+
+.divTime>h1{
+    width: 90px;
+height: 32px;
+
+top: 384px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+color: #003367;
+
+}
+
+.divP{
+  
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+
+.divDay{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #546E7B;
+}
+.divDay1{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #95A2A7;
+
+
+
+
+}
+.divDay{
+    font-size: 20px;
+}
+.inTime{
+   
+    border: none;
+    border: 3px solid #EBEEEF;
+}
+
+.newPiker{
+    display: flex;
+    justify-content: space-between;
+}
+.imgx{
+    width: 9px;
+    position: relative;
+    bottom: 28px;
+    left: 80px;
+}
+.imgx:hover{
+  background-color: rgb(147, 85, 228);
+}
+.pikerDiv{
+    display: flex;
+
+}
+.divTimeP{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.divTimeP>div>p{
+    margin-left: 50px;
+
+    
+}
+.inTime11{
+    width: 100%;
+    height: 32px;
+   border: none;
+
+background: #F5F6F7;
+border-radius: 4px;
+    text-align: center;
+    border: 2px solid  #EBEEEF;
+}
+.iDiv{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 395px;
+}
+
+
+.inTime11>i{
+    color: rgb(192, 189, 189);
+}
+.inTime11>i:hover{
+    color: rgb(147, 85, 228);
+}
+

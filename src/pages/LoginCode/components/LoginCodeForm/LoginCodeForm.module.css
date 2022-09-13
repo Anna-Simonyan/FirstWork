@@ -1,0 +1,154 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+ 
+ 
+}
+
+.loginCodeForm {
+  width: 442px;
+  margin-left: 18%;
+  margin-top: 30px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #003367;
+}
+
+.button {
+  width: 90px;
+height: 36px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+  font-weight: bold;
+  padding: 9px 16px;
+  margin-top: 30px;
+  color: white;
+  background: #003367;
+  border-radius: 4px;
+  border: none;
+  letter-spacing: 1.25px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text1 {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 32px;
+}
+
+.text2 {
+  margin-top: 24px;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+  color: #95a2a7;
+}
+
+.inputsWrapper {
+  display: flex;
+}
+
+.inputsWrapper {
+
+  height: 40px;
+  border: none;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.inputsWrapper input {
+  width: calc(100% / 7);
+
+  text-align: center;
+  border-top: unset;
+  border-right: unset;
+  border-left: unset;
+ margin-left: 10px;
+ font-size: 16px;
+
+}
+
+
+.inputsWrapper>input:focus {
+  outline: 0;
+  border-bottom: 3px solid #003367;
+  
+}
+
+
+
+.closeButton {
+ 
+  margin-left: 15px;
+  margin-top: 10px;
+  color: #95a2a7;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.closeButton:hover {
+  cursor: pointer;
+  color: rgb(150, 104, 236);
+}
+.input{
+  position: relative;
+  bottom: 5px;
+  height: 20px;
+margin-left:10px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.25px;
+border: none;
+background: #fce4e4;
+
+color: #AF2727;
+
+
+}
+.png2{
+margin-left: 10px;
+margin-top: 8px; 
+
+  }
+  
+.divIcon{
+  width: 94%;
+  height: 36px;
+ 
+
+  background: #fce4e4;
+
+  border-radius: 4px;
+  border: 3px solid white;
+}
